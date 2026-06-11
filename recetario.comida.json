@@ -1,0 +1,443 @@
+[{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012ef"
+  },
+  "id": 1,
+  "platillo": "Tacos al Pastor",
+  "pais": "México",
+  "tiempo_preparacion": "120 minutos (más marinado)",
+  "dificultad": "Media",
+  "explicacion": "Un clásico de la cocina mexicana influenciado por la inmigración libanesa. Consiste en carne de cerdo marinada en un adobo de achiote y chiles, cocinada tradicionalmente en un trompo y servida con piña, cilantro y cebolla.",
+  "ingredientes": [
+    "1 kg de carne de cerdo (pierna o lomo) en filetes delgados",
+    "3 chiles guajillo limpios y desvenados",
+    "2 chiles anchos limpios y desvenados",
+    "30g de pasta de achiote",
+    "1/2 taza de vinagre blanco",
+    "2 dientes de ajo",
+    "1/4 de cebolla",
+    "1 cdta de orégano",
+    "1 cdta de comino",
+    "Piña fresca en trozos",
+    "Tortillas de maíz",
+    "Cilantro y cebolla picada para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Hierve los chiles en agua durante 10 minutos hasta que se suavicen.",
+    "Licúa los chiles con el achiote, vinagre, ajo, cebolla, orégano y comino hasta obtener un adobo terso. Cuela si es necesario.",
+    "Marina los filetes de cerdo con el adobo asegurándote de que queden bien cubiertos. Deja reposar en el refrigerador por al menos 4 horas (idealmente toda la noche).",
+    "En una sartén grande o plancha bien caliente con un poco de aceite, cocina la carne por ambos lados hasta que esté dorada y ligeramente crujiente. Corta la carne en trozos pequeños.",
+    "En la misma sartén, dora ligeramente los trozos de piña.",
+    "Calienta las tortillas, sirve la carne, añade los trozos de piña, y decora con cilantro y cebolla picados."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f0"
+  },
+  "id": 2,
+  "platillo": "Sushi Maki (Rollos de Sushi)",
+  "pais": "Japón",
+  "tiempo_preparacion": "45 minutos",
+  "dificultad": "Media",
+  "explicacion": "Uno de los formatos más populares del sushi japonés. Consiste en arroz sazonado con vinagre de arroz, combinado con ingredientes como pescado crudo o vegetales, todo enrollado en una hoja de alga nori.",
+  "ingredientes": [
+    "2 tazas de arroz para sushi (grano corto)",
+    "3 cucharadas de vinagre de arroz",
+    "1 cucharada de azúcar",
+    "1 cucharadita de sal",
+    "Hojas de alga nori",
+    "150g de salmón fresco grado fresco/sushi",
+    "1 aguacate cortado en tiras",
+    "1 pepino cortado en tiras finas",
+    "Salsa de soya y wasabi para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Lava el arroz varias veces hasta que el agua salga clara. Cocínalo con agua limpia siguiendo las instrucciones (usualmente proporción 1:1.1 de agua).",
+    "Mezcla el vinagre de arroz, el azúcar y la sal. Disuelve bien y vierte sobre el arroz cocido caliente, mezclando suavemente sin batir mientras se enfría.",
+    "Coloca una hoja de nori sobre una esterilla de bambú (makisu).",
+    "Cúbrela con una capa delgada de arroz húmedo, dejando un borde libre de 2 cm en la parte superior.",
+    "Coloca tiras de salmón, aguacate y pepino en el centro del arroz.",
+    "Enrolla firmemente usando la esterilla, presionando suavemente para dar forma cilíndrica.",
+    "Corta el rollo en 6 u 8 piezas con un cuchillo muy afilado y ligeramente húmedo."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f1"
+  },
+  "id": 3,
+  "platillo": "Pizza Margherita",
+  "pais": "Italia",
+  "tiempo_preparacion": "90 minutos (más leudado de masa)",
+  "dificultad": "Media",
+  "explicacion": "La reina de las pizzas italianas, originaria de Nápoles. Representa los colores de la bandera italiana: rojo (tomate), blanco (mozzarella) y verde (albahaca).",
+  "ingredientes": [
+    "250g de harina de fuerza",
+    "150ml de agua tibia",
+    "5g de levadura fresca de panadería",
+    "1 cdta de sal",
+    "1/2 cdta de azúcar",
+    "100g de salsa de tomate natural triturado",
+    "125g de queso mozzarella fresco bien escurrido",
+    "Hojas de albahaca fresca",
+    "Aceite de oliva virgen extra"
+  ],
+  "preparacion_paso_a_paso": [
+    "Disuelve la levadura y el azúcar en el agua tibia. En un bol, mezcla la harina y la sal, añade el agua y amasa durante 10 minutos hasta lograr una masa elástica.",
+    "Deja levar la masa en un bol tapado durante 1 a 2 horas hasta que doble su tamaño.",
+    "Precalienta el horno a la máxima temperatura posible (220-250°C).",
+    "Estira la masa con las manos sobre una superficie enharinada dejando los bordes un poco más gruesos.",
+    "Extiende la salsa de tomate sobre la base, añade el queso mozzarella en trozos y un chorrito de aceite de oliva.",
+    "Hornea durante 10-12 minutos hasta que los bordes estén dorados y el queso burbujee. Al salir del horno, decora con las hojas de albahaca fresca."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f2"
+  },
+  "id": 4,
+  "platillo": "Pad Thai",
+  "pais": "Tailandia",
+  "tiempo_preparacion": "30 minutos",
+  "dificultad": "Alta",
+  "explicacion": "El plato callejero más famoso de Tailandia. Es un salteado en wok a base de fideos de arroz con una salsa agridulce balanceada gracias al tamarindo y el azúcar de palma.",
+  "ingredientes": [
+    "150g de fideos de arroz planos",
+    "100g de pechuga de pollo o camarones",
+    "2 huevos",
+    "50g de brotes de soja",
+    "2 cucharadas de pasta de tamarindo",
+    "2 cucharadas de salsa de pescado",
+    "1 cucharada de azúcar de palma o morena",
+    "2 dientes de ajo picados",
+    "Cacahuetes tostados picados y una rodaja de lima para servir"
+  ],
+  "preparacion_paso_a_paso": [
+    "Remoja los fideos de arroz en agua tibia durante 30 minutos hasta que estén flexibles pero no demasiado blandos. Escurre.",
+    "En un tazón pequeño, mezcla la pasta de tamarindo, la salsa de pescado y el azúcar para hacer la salsa Pad Thai.",
+    "Calienta un wok con aceite a fuego alto. Saltea el ajo y añade el pollo o camarones hasta que estén cocidos.",
+    "Empuja los ingredientes a un lado del wok, vierte los huevos batidos en el espacio libre y revuélvelos rápido.",
+    "Añade los fideos y la salsa. Saltea todo rápidamente a fuego alto para que los fideos absorban los sabores.",
+    "Agrega los brotes de soja, apaga el fuego, mezcla y sirve inmediatamente espolvoreando los cacahuetes por encima y acompañando con la lima."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f3"
+  },
+  "id": 5,
+  "platillo": "Feijoada",
+  "pais": "Brasil",
+  "tiempo_preparacion": "180 minutos",
+  "dificultad": "Media",
+  "explicacion": "Considerado el plato nacional de Brasil. Es un guiso espeso y reconfortante hecho a base de frijoles negros y una gran variedad de carnes saladas, ahumadas y frescas de cerdo y res.",
+  "ingredientes": [
+    "500g de frijoles negros (remojados desde la noche anterior)",
+    "200g de costilla de cerdo",
+    "150g de chorizo ahumado picado",
+    "150g de tocino en cubos",
+    "150g de carne seca o lacón de cerdo",
+    "1 cebolla grande picada",
+    "4 dientes de ajo picados",
+    "2 hojas de laurel",
+    "Naranjas en rodajas y arroz blanco para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla grande, pon a cocer los frijoles negros previamente remojados con el laurel en abundante agua.",
+    "En una olla aparte, hierve las carnes saladas durante 10 minutos para quitar el exceso de sal, luego escúrrelas.",
+    "Corta todas las carnes en trozos medianos y añádelas a la olla de los frijoles para que se cocinen juntos a fuego lento durante unas 2 horas, hasta que la carne esté muy suave.",
+    "En una sartén, sofríe el tocino, la cebolla y el ajo hasta que estén dorados.",
+    "Toma un cucharón de frijoles de la olla grande, aplástalos en la sartén con el sofrito para hacer una pasta y vuelve a verter todo en la olla grande para espesar el caldo."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f4"
+  },
+  "id": 6,
+  "platillo": "Ceviche Peruano",
+  "pais": "Perú",
+  "tiempo_preparacion": "20 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Patrimonio cultural de Perú. Es un plato frío donde trozos de pescado fresco se 'cocinan' brevemente gracias a la desnaturalización por el ácido del jugo de limones recién exprimidos, sazonado con ají y cebolla roja.",
+  "ingredientes": [
+    "500g de filete de pescado blanco fresco",
+    "1 taza de jugo de limón verde fresco",
+    "1 cebolla morada cortada en juliana fina",
+    "1 ají limo o chile picado finamente",
+    "Cilantro fresco picado",
+    "Sal al gusto",
+    "Camote cocido y maíz tierno para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Corta el pescado limpio en cubos de aproximadamente 2 cm y colócalos en un tazón de vidrio limpio.",
+    "Sazona el pescado generosamente con sal y el ají limo picado.",
+    "Vierte el jugo de limón recién exprimido sobre el pescado de manera uniforme.",
+    "Agrega la cebolla morada previamente lavada y el cilantro picado.",
+    "Mezcla suavemente y deja reposar de 3 a 5 minutos en el refrigerador.",
+    "Sirve de inmediato acompañado de rodajas de camote cocido y granos de maíz."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f5"
+  },
+  "id": 7,
+  "platillo": "Moussaka",
+  "pais": "Grecia",
+  "tiempo_preparacion": "90 minutos",
+  "dificultad": "Alta",
+  "explicacion": "Un clásico del Mediterráneo Oriental. Es una lasaña horneada que sustituye la pasta por capas de berenjena frita, intercaladas con carne de cordero o res picada en salsa de tomate y coronada con salsa bechamel.",
+  "ingredientes": [
+    "3 berenjenas grandes",
+    "500g de carne picada de cordero o res",
+    "1 cebolla picada",
+    "2 dientes de ajo picados",
+    "400g de tomate triturado",
+    "1/2 de taza de vino blanco",
+    "Una pizca de canela en polvo",
+    "500ml de salsa bechamel preparada",
+    "100g de queso rallado",
+    "Aceite de oliva, sal y pimienta"
+  ],
+  "preparacion_paso_a_paso": [
+    "Corta las berenjenas en rodajas, ponles sal para que suden 30 minutos, enjuágalas y dóralas en una sartén con aceite de oliva.",
+    "Sofríe la cebolla y el ajo. Añade la carne picada, el vino blanco, el tomate, la canela, sal y pimienta. Reduce a fuego lento por 30 minutos.",
+    "En una fuente para horno, coloca una capa de rodajas de berenjena, luego la salsa de carne, otra capa de berenjena y cubre con la bechamel.",
+    "Espolvorea el queso rallado encima.",
+    "Hornea a 180°C durante 45 minutos hasta que la superficie esté completamente dorada.",
+    "Dejar asentar 15 minutos antes de cortar y servir."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f6"
+  },
+  "id": 8,
+  "platillo": "Paella Valenciana",
+  "pais": "España",
+  "tiempo_preparacion": "60 minutos",
+  "dificultad": "Alta",
+  "explicacion": "El plato español más internacional. La receta tradicional de campo no lleva mariscos, sino carne de pollo, conejo y verduras locales cocinadas con arroz plano y hebras de azafrán.",
+  "ingredientes": [
+    "400g de arroz tipo bomba",
+    "400g de pollo troceado",
+    "400g de conejo troceado",
+    "200g de judías verdes planas",
+    "100g de garrofó (alubias blancas grandes)",
+    "1 tomate maduro rallado",
+    "Unas hebras de azafrán",
+    "1 cdta de pimentón dulce",
+    "Caldo de carne o agua",
+    "Aceite de oliva y sal"
+  ],
+  "preparacion_paso_a_paso": [
+    "Calienta aceite de oliva en la paella y dora muy bien los trozos de pollo y conejo con un poco de sal.",
+    "Añade las judías verdes y el garrofó, sofriéndolos por unos minutos.",
+    "Haz un hueco en el centro, añade el tomate rallado y el pimentón dulce, sofriéndolos rápidamente.",
+    "Agrega el agua o caldo junto con las hebras de azafrán y deja hervir a fuego medio durante unos 15 minutos.",
+    "Añade el arroz distribuyéndolo uniformemente. Cocina a fuego vivo durante los primeros 8-10 minutos.",
+    "Baja el fuego al mínimo y cocina otros 8-10 minutos más sin remover el arroz, buscando que se forme el socarrat en el fondo."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f7"
+  },
+  "id": 9,
+  "platillo": "Poutine",
+  "pais": "Canadá",
+  "tiempo_preparacion": "30 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Un famoso plato originario de Quebec. Es comida reconfortante pura: una base de papas fritas crujientes cubiertas con queso en grano fresco y bañadas en una salsa de carne caliente estilo gravy.",
+  "ingredientes": [
+    "4 papas grandes cortadas para freír",
+    "150g de queso en grano o mozzarella fresca en cubos",
+    "2 cucharadas de mantequilla",
+    "2 cucharadas de harina de trigo",
+    "2 tazas de caldo de res concentrado",
+    "Aceite para freír",
+    "Sal y pimienta al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "Derrite la mantequilla, añade la harina y cocina por 2 minutos. Añade el caldo de res poco a poco batiendo hasta que espese para crear el gravy.",
+    "Fríe las papas en abundante aceite caliente hasta que estén bien doradas y crujientes por fuera.",
+    "Coloca las papas fritas recién hechas y calientes en un plato honos.",
+    "Distribuye los granos de queso por encima de las papas.",
+    "Baña inmediatamente todo el plato con la salsa gravy muy caliente para que el queso comience a derretirse ligeramente."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f8"
+  },
+  "id": 10,
+  "platillo": "Curry de Pollo Tikka Masala",
+  "pais": "India",
+  "tiempo_preparacion": "50 minutos (más marinado)",
+  "dificultad": "Media",
+  "explicacion": "Un plato icónico de la gastronomía del sur de Asia. Consiste en trozos de pollo marinados en yogur y especias, horneados y luego sumergidos en una salsa cremosa, especiada y aromática a base de tomate.",
+  "ingredientes": [
+    "500g de pechuga de pollo en cubos",
+    "1/2 taza de yogur natural sin azúcar",
+    "2 cdtas de Garam Masala",
+    "1 cdta de cúrcuma",
+    "1 cucharada de jengibre y ajo rallados",
+    "400g de puré de tomate",
+    "200ml de crema de leche",
+    "1 cebolla grande picada",
+    "Aceite o mantequilla clarificada"
+  ],
+  "preparacion_paso_a_paso": [
+    "Mezcla el yogur, jengibre, ajo, cúrcuma y garam masala. Agrega el pollo y deja marinar mínimo 2 horas.",
+    "Cocina los cubos de pollo en una sartén muy caliente hasta que estén dorados por fuera. Reserva.",
+    "En una sartén honda, sofríe la cebolla con un toque de aceite hasta que se ablande por completo.",
+    "Añade el puré de tomate y el resto del garam masala. Cocina a fuego lento por 10 minutos.",
+    "Agrega la crema de leche y mezcla bien para formar una salsa suave.",
+    "Incorpora el pollo cocido a la salsa y cocina todo junto a fuego bajo durante 10 minutos adicionales."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012f9"
+  },
+  "id": 11,
+  "platillo": "Crêpes Saladas",
+  "pais": "Francia",
+  "tiempo_preparacion": "25 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Finas masas de origen bretón que se cocinan en una sartén redonda. Esta versión salada se rellena tradicionalmente con queso derretido y jamón cocido.",
+  "ingredientes": [
+    "250g de harina de trigo",
+    "4 huevos",
+    "500ml de leche entera",
+    "50g de mantequilla derretida",
+    "Una pizca de sal",
+    "200g de jamón cocido en lonchas",
+    "200g de queso gruyere o mozzarella rallado"
+  ],
+  "preparacion_paso_a_paso": [
+    "Mezcla la harina, los huevos, la leche, la mantequilla derretida y la sal hasta obtener una mezcla líquida homogénea.",
+    "Deja reposar la masa en el refrigerador durante 15 minutos.",
+    "Calienta una sartén antiadherente a fuego medio y engrásala con un poco de mantequilla.",
+    "Vierte un cucharón de masa y gira la sartén para cubrir el fondo de forma muy delgada.",
+    "Cocina 2 minutos, dale la vuelta, añade el queso y el jamón en el centro.",
+    "Dobla los bordes de la crêpe hacia el centro formando un cuadrado mientras el queso se derrite."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012fa"
+  },
+  "id": 12,
+  "platillo": "Goulash",
+  "pais": "Hungría",
+  "tiempo_preparacion": "120 minutos",
+  "dificultad": "Media",
+  "explicacion": "Un guiso ancestral caracterizado por la cocción lenta de carne de res con abundantes cebollas y el uso primordial del pimentón dulce húngaro (paprika), que le otorga su color rojo profundo.",
+  "ingredientes": [
+    "800g de carne de res para guisar en cubos",
+    "3 cebollas grandes picadas finamente",
+    "2 cucharadas colmadas de paprika dulce",
+    "2 dientes de ajo picados",
+    "1 pimiento verde cortado en cubos",
+    "2 tomates maduros picados",
+    "Caldo de res",
+    "Aceite vegetal y sal"
+  ],
+  "preparacion_paso_a_paso": [
+    "Calienta aceite en una olla pesada y sofríe las cebollas a fuego bajo hasta que estén transparentes.",
+    "Retira la olla del fuego un momento, añade la paprika y mezcla rápido para que no se queme.",
+    "Regresa al fuego, añade los cubos de carne y el ajo. Cocina hasta que la carne se selle.",
+    "Agrega el pimiento verde y los tomates. Añade suficiente caldo de res para cubrir apenas los ingredientes.",
+    "Tapa la olla, baja el fuego al mínimo y deja cocinar lentamente durante 2 horas.",
+    "Revuelve ocasionalmente hasta que la carne esté extremadamente tierna y la salsa espese."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012fb"
+  },
+  "id": 13,
+  "platillo": "Arepas con Reina Pepiada",
+  "pais": "Venezuela",
+  "tiempo_preparacion": "35 minutos",
+  "dificultad": "Baja",
+  "explicacion": "La arepa es un pan de masa de maíz precocido. La Reina Pepiada es uno de sus rellenos más famosos: una ensalada fría de pollo desmechado con aguacate cremoso y mayonesa.",
+  "ingredientes": [
+    "2 tazas de harina de maíz blanco precocida",
+    "2 tazas y media de agua tibia",
+    "1 cdta de sal",
+    "1 pechuga de pollo cocida y desmechada",
+    "1 aguacate grande maduro",
+    "3 cucharadas de mayonesa",
+    "1/4 de cebolla rallada",
+    "Sal y pimienta al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "En un bol, coloca el agua tibia y disuelve la sal. Agrega la harina de maíz poco a poco amasando bien.",
+    "Forma discos de masa de aproximadamente 1.5 cm de grosor.",
+    "Cocina las arepas en una sartén caliente por unos 5-7 minutos por lado hasta que hagan costra.",
+    "Para el relleno: En un tazón, aplasta el aguacate y mézclalo con la mayonesa, la cebolla y el pollo desmechado.",
+    "Sazona la mezcla con sal y pimienta al gusto.",
+    "Abre las arepas calientes con un cuchillo por la mitad y rellénalas generosamente con la mezcla."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012fc"
+  },
+  "id": 14,
+  "platillo": "Kimchi Jjigae",
+  "pais": "Corea del Sur",
+  "tiempo_preparacion": "35 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Uno de los estofados más comunes en Corea. Es una sopa caliente, picante y ácida hecha a base de kimchi bien maduro (col fermentada), panceta de cerdo y tofu blando.",
+  "ingredientes": [
+    "1 taza de kimchi maduro picado",
+    "150g de panceta de cerdo en trozos delgados",
+    "1/2 paquete de tofu firme en rodajas",
+    "1/2 cebolla rebanada",
+    "1 cucharada de Gochujang (pasta de chile)",
+    "1 cdta de ajo picado",
+    "2 tazas de agua o caldo",
+    "1 cdta de aceite de sésamo"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla, saltea la panceta de cerdo con el aceite de sésamo y el ajo hasta que se dore.",
+    "Añade el kimchi picado y la cebolla, salteando por 5 minutos más.",
+    "Agrega la pasta Gochujang y vierte el agua o caldo, llevando todo a ebullición.",
+    "Baja el fuego a medio-bajo, tapa la olla y deja cocinar por 15 minutos.",
+    "Coloca las rodajas de tofu con cuidado en la superficie de la sopa.",
+    "Cocina 5 minutos más destapado y sirve caliente."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2756f3a750867a324012fd"
+  },
+  "id": 15,
+  "platillo": "Fish and Chips",
+  "pais": "Reino Unido",
+  "tiempo_preparacion": "40 minutos",
+  "dificultad": "Media",
+  "explicacion": "El clásico menú para llevar británico. Consiste en filetes de pescado blanco sumergidos en un rebozado crujiente hecho con cerveza, fritos a la perfección y servidos con papas fritas gruesas.",
+  "ingredientes": [
+    "4 filetes de pescado blanco firme",
+    "1 taza de harina de trigo",
+    "1 cdta de polvo para hornear",
+    "200ml de cerveza rubia muy fría",
+    "3 papas grandes cortadas en bastones gruesos",
+    "Aceite abundante para freír",
+    "Sal y pimienta al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "Hierve las papas en agua con sal por 4 minutos para ablandarlas. Escurre y seca perfectamente.",
+    "Mezcla la harina, el polvo para hornear, sal, pimienta y la cerveza fría hasta obtener una masa lisa.",
+    "Fríe las papas por primera vez en aceite a 160°C durante 5 minutos sin que se doren. Retira.",
+    "Pasa los filetes de pescado por harina y luego por la mezcla líquida de cerveza.",
+    "Fríe el pescado a 180°C durante 5 minutos hasta que el rebozado esté inflado y dorado. Escurre.",
+    "Fríe las papas por segunda vez a 180°C durante 2 minutos para que queden súper crujientes."
+  ]
+}]

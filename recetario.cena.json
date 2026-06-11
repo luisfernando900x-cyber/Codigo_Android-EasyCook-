@@ -1,0 +1,426 @@
+[{
+  "_id": {
+    "$oid": "6a275843a750867a3240130d"
+  },
+  "id": 1,
+  "platillo": "Pozole Rojo",
+  "pais": "México",
+  "tiempo_preparacion": "150 minutos",
+  "dificultad": "Media",
+  "explicacion": "Una de las cenas mexicanas más tradicionales y festivas. Es un caldo sustancioso hecho a base de granos de maíz cacahuazintle estallados y carne de cerdo, sazonado con una salsa de chiles secos y acompañado de verduras frescas.",
+  "ingredientes": [
+    "1 kg de maíz pozolero precocido",
+    "1 kg de carne de cerdo (cabeza, lomo o pulpa) en trozos",
+    "4 chiles guajillo limpios y desvenados",
+    "2 chiles ancho limpios y desvenados",
+    "1/2 cabeza de ajo",
+    "1 cebolla mediana",
+    "1 cucharada de orégano seco",
+    "Lechuga picada, rabanitos en rodajas, cebolla picada y limones para acompañar",
+    "Tostadas de maíz"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla grande con abundante agua, pon a cocer el maíz con la media cabeza de ajo y la cebolla hasta que los granos florezcan.",
+    "Añade los trozos de carne de cerdo y sal al gusto. Cocina a fuego medio durante 1 hora o hasta que la carne esté muy suave.",
+    "Mientras tanto, hierve los chiles secos en agua por 10 minutos y lícualos con un poco de su propia agua, un diente de ajo y orégano.",
+    "Cuela la salsa de chiles y viértela directamente en la olla del pozole. Mezcla bien.",
+    "Deja hervir todo junto a fuego lento durante 20 minutos adicionales para que los sabores se integren por completo.",
+    "Sirve el caldo caliente en platos hondos y decora al gusto con lechuga, rábano, cebolla picada, orégano y unas gotas de limón, acompañado de tostadas."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a3240130e"
+  },
+  "id": 2,
+  "platillo": "Ramen Tonkotsu",
+  "pais": "Japón",
+  "tiempo_preparacion": "240 minutos (de cocción rápida)",
+  "dificultad": "Alta",
+  "explicacion": "Una cena japonesa profundamente reconfortante. Consiste en fideos de trigo servidos en un caldo cremoso y espeso obtenido tras la cocción prolongada de huesos de cerdo, acompañado de láminas de carne (chashu) y huevo marinado.",
+  "ingredientes": [
+    "1 kg de huesos de cerdo (fémur o espinazo)",
+    "1 paquete de fideos para ramen",
+    "4 láminas de panceta de cerdo cocida (Chashu)",
+    "2 huevos pasados por agua y marinados en soya",
+    "2 cm de jengibre y 1 cebollín entero",
+    "2 cucharadas de salsa de soya y 1 de mirin",
+    "Cebollín picado fino y alga nori para decorar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Blanquea los huesos de cerdo hirviéndolos en agua por 10 minutos. Escurre, lava perfectamente cada hueso para quitar impurezas de la sangre.",
+    "Coloca los huesos limpios en una olla con agua limpia, jengibre y el cebollín. Hierve fuertemente tapado durante mínimo 3 o 4 horas hasta que el caldo sea blanco y lechoso.",
+    "Cuela el caldo para retirar los huesos y los vegetales, dejando únicamente el líquido cremoso.",
+    "En el fondo del tazón de servicio, coloca la salsa de soya y el mirin (tare) como base de sabor.",
+    "Cocina los fideos de ramen en agua hirviendo durante 2 minutos, escúrrelos y añádelos directamente al tazón.",
+    "Vierte el caldo hirviendo sobre los fideos y decora por encima con el chashu, la mitad de un huevo marinado, cebollín fresco y un trozo de alga nori."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a3240130f"
+  },
+  "id": 3,
+  "platillo": "Sopa de Cebolla Francesa",
+  "pais": "Francia",
+  "tiempo_preparacion": "50 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Una cena clásica y elegante del invierno francés. El secreto es la lenta caramelización natural de las cebollas en mantequilla, combinada con un caldo de res profundo, rematado con una rebanada de pan y queso gruyere gratinado.",
+  "ingredientes": [
+    "4 cebollas grandes cortadas en juliana fina",
+    "3 cucharadas de mantequilla sin sal",
+    "1 cucharada de harina de trigo",
+    "1 litro de caldo de res concentrado",
+    "1/2 taza de vino blanco seco",
+    "1 rebanada de pan baguette por porción",
+    "100g de queso Gruyere o emmental rallado",
+    "1 hoja de laurel, sal y pimienta"
+  ],
+  "preparacion_paso_a_paso": [
+    "Derrite la mantequilla en una olla a fuego medio-bajo. Añade las cebollas y cocina lentamente durante 30 minutos, revolviendo hasta que estén marrones y caramelizadas.",
+    "Espolvorea la harina sobre las cebollas y cocina por 2 minutos sin parar de remover.",
+    "Vierte el vino blanco para desglasar el fondo de la olla, raspando los trozos dorados adheridos.",
+    "Agrega el caldo de res y la hoja de laurel. Sazona con sal y pimienta, tapa y cocina a fuego bajo durante 20 minutos.",
+    "Tuesta las rebanadas de pan baguette en el horno hasta que queden completamente crujientes.",
+    "Sirve la sopa en tazones aptos para horno, coloca el pan tostado flotando encima, cubre generosamente con el queso rallado y gratina bajo el asador del horno hasta que burbujee."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401310"
+  },
+  "id": 4,
+  "platillo": "Sopa Tom Yum Goong",
+  "pais": "Tailandia",
+  "tiempo_preparacion": "25 minutos",
+  "dificultad": "Media",
+  "explicacion": "La sopa tailandesa más famosa del mundo. Es una cena ligera, aromática, picante y marcadamente ácida que combina camarones frescos con ingredientes cítricos locales como el lemongrass y las hojas de lima kaffir.",
+  "ingredientes": [
+    "200g de camarones grandes, limpios (con cola)",
+    "2 tallos de lemongrass (hierba limón) machacados",
+    "3 rodajas de galanga o jengibre fresco",
+    "4 hojas de lima kaffir",
+    "2 cucharadas de pasta de chile tailandesa (Nam Prik Pao)",
+    "1 taza de champiñones laminados",
+    "2 cucharadas de salsa de pescado y 3 de jugo de lima",
+    "Cilantro fresco"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla, pon a hervir 3 tazas de agua o caldo ligero junto con el lemongrass, la galanga y las hojas de lima kaffir por 5 minutos para liberar sus aceites.",
+    "Añade la pasta de chile tailandesa y mezcla hasta que el caldo tome un color rojizo.",
+    "Incorpora los champiñones y cocina a fuego medio durante 3 minutos.",
+    "Agrega los camarones limpios a la olla y cocina por escasos 2 o 3 minutos hasta que cambien a un color rosado opaco.",
+    "Apaga el fuego e inmediatamente añade la salsa de pescado y el jugo de lima fresco.",
+    "Revuelve bien, decora con abundante cilantro fresco picado y sirve caliente (las hierbas aromáticas enteras no se comen)."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401311"
+  },
+  "id": 5,
+  "platillo": "Caldo Verde",
+  "pais": "Portugal",
+  "tiempo_preparacion": "40 minutos",
+  "dificultad": "Baja",
+  "explicacion": "La cena más reconfortante de los hogares portugueses. Es una sopa cremosa a base de papas trituradas y col rizada finamente picada, rematada con rodajas de chorizo tradicional.",
+  "ingredientes": [
+    "500g de papas harinosas, peladas y troceadas",
+    "200g de col rizada (kale) cortada en juliana extremadamente fina",
+    "1 cebolla picada",
+    "2 dientes de ajo picados",
+    "100g de chorizo portugués o español en rodajas",
+    "1 litro de caldo de verduras o agua",
+    "4 cucharadas de aceite de oliva virgen extra",
+    "Sal al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla grande, calienta dos cucharadas de aceite de oliva y sofríe la cebolla y el ajo hasta que estén blandos.",
+    "Añade las papas troceadas y vierte el caldo o agua. Lleva a ebullición y cocina por 20 minutos hasta que las papas se deshagan.",
+    "Mientras tanto, dora las rodajas de chorizo en una sartén aparte para que suelten su grasa. Reserva.",
+    "Retira la olla del fuego y tritura las papas junto con el caldo usando una licuadora de mano hasta obtener una crema lisa y ligera.",
+    "Regresa al fuego, añade la col rizada finamente cortada y cocina destapado únicamente por 5 minutos para que mantenga su color verde brillante.",
+    "Sirve en platos hondos, reparte las rodajas de chorizo por encima y finaliza con un chorrito de aceite de oliva crudo."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401312"
+  },
+  "id": 6,
+  "platillo": "Pho Ga (Sopa Pho de Pollo)",
+  "pais": "Vietnam",
+  "tiempo_preparacion": "60 minutos",
+  "dificultad": "Media",
+  "explicacion": "La versión ligera de la emblemática sopa de fideos vietnamita, ideal para una cena balanceada. Su caldo transparente destaca por el aroma tostado del anís estrella, el clavo y la canela.",
+  "ingredientes": [
+    "150g de fideos de arroz planos",
+    "1 pechuga de pollo con hueso",
+    "1 cebolla y 3 cm de jengibre fresco",
+    "2 estrellas de anís, 2 clavos de olor y 1 rama de canela",
+    "2 cucharadas de salsa de pescado",
+    "Brotes de soja, hojas de cilantro y rodajas de chile jalapeño",
+    "Hierbabuena fresca y lima"
+  ],
+  "preparacion_paso_a_paso": [
+    "Corta la cebolla y el jengibre a la mitad y tuéstalos directamente sobre el fuego de la estufa hasta que queden ligeramente quemados por fuera.",
+    "En una olla, coloca la pechuga de pollo, la cebolla, el jengibre tostado, el anís, el clavo y la canela. Cubre con agua y cocina por 35 minutos.",
+    "Retira la pechuga de pollo, desméchala retirando la piel y los huesos, y reserva la carne limpia.",
+    "Cuela el caldo para dejarlo completamente cristalino y añade la salsa de pescado para sazonar.",
+    "Cocina los fideos de arroz en agua hirviendo durante 3 minutos y repártelos en los tazones de cena.",
+    "Coloca el pollo desmechado sobre los fideos, inunda el tazón con el caldo hirviendo y acompáñalo con un plato lateral lleno de brotes de soja, chiles, hierbas frescas y lima para que cada quien lo personalice."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401313"
+  },
+  "id": 7,
+  "platillo": "Sopa Minestrone",
+  "pais": "Italia",
+  "tiempo_preparacion": "45 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Una clásica sopa de verduras italiana de origen campesino, densa y muy nutritiva. No tiene una receta fija, pero se caracteriza por el uso de frijoles, pasta corta, verduras de temporada picadas uniformemente y queso parmesano.",
+  "ingredientes": [
+    "1 taza de frijoles blancos cocidos",
+    "1/2 taza de pasta corta (ditalini o coditos)",
+    "1 zanahoria, 1 calabacín y 1 tallo de apio picados en cubos",
+    "100g de tomates maduros triturados",
+    "1 cebolla y 2 dientes de ajo picados",
+    "1 litro de caldo de verduras",
+    "Queso parmesano rallado y hojas de albahaca fresca",
+    "Aceite de oliva, sal y pimienta"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla profunda, calienta aceite de oliva y sofríe la cebolla, el ajo, la zanahoria y el apio durante 5 minutos.",
+    "Añade el calabacín y el tomate triturado, cocinando por 3 minutos más.",
+    "Vierte el caldo de verduras y lleva a ebullición. Reduce el fuego y cocina por 15 minutos.",
+    "Añade los frijoles blancos cocidos y la pasta corta directamente a la olla.",
+    "Cocina a fuego medio el tiempo que dicte el paquete de la pasta (unos 8-10 minutos) hasta que esté al dente.",
+    "Sirve en platos hondos con un hilo de aceite de oliva virgen extra, hojas de albahaca y abundante queso parmesano rallado por encima."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401314"
+  },
+  "id": 8,
+  "platillo": "Clam Chowder (Crema de Almejas)",
+  "pais": "Estados Unidos",
+  "tiempo_preparacion": "35 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Originaria de la región de Nueva Inglaterra. Es una sopa rica, cremosa y reconfortante hecha a base de almejas picadas, papas en cubos y tocino crujiente, ideal para noches costeras frías.",
+  "ingredientes": [
+    "200g de carne de almejas en su jugo (enlatada o fresca)",
+    "2 papas medianas cortadas en cubos pequeños",
+    "100g de tocino picado en trozos pequeños",
+    "1/2 cebolla y 1 tallo de apio picados finamente",
+    "2 cucharadas de mantequilla y 2 de harina de trigo",
+    "1 taza de leche entera y 1 taza de crema de leche",
+    "Sal, pimienta y galletas de soda para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla a fuego medio, dora el tocino picado hasta que quede crujiente. Retíralo de la olla y reserva la grasa.",
+    "En la misma grasa del tocino, añade la cebolla y el apio, sofriéndolos hasta que queden transparentes.",
+    "Agrega las papas en cubos y el jugo de las almejas (reserva la carne de almeja). Cocina por 12 minutos hasta que las papas estén tiernas.",
+    "En una sartén pequeña, derrite la mantequilla, integra la harina por 1 minuto y vierte la leche y la crema creando una base blanca espesa.",
+    "Incorpora la mezcla blanca a la olla principal junto con la carne de las almejas picadas. Cocina a fuego bajo por 5 minutos sin dejar que hierva.",
+    "Sazona con sal y pimienta, y sirve espolvoreando el tocino crujiente por encima y galletas de soda a un lado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401315"
+  },
+  "id": 9,
+  "platillo": "Borscht (Sopa de Remolacha)",
+  "pais": "Ucrania",
+  "tiempo_preparacion": "75 minutos",
+  "dificultad": "Media",
+  "explicacion": "Una sopa de color rojo vibrante debido a su ingrediente principal: la remolacha. Es un plato agridulce, reconfortante y lleno de verduras que tradicionalmente se corona con una cucharada de crema agria.",
+  "ingredientes": [
+    "2 remolachas (betabeles) grandes ralladas",
+    "1 zanahoria rallada y 2 papas cortadas en cubos",
+    "1 taza de col blanca (repollo) cortada en tiras finas",
+    "1 cebolla picada fina",
+    "2 cucharadas de pasta de tomate",
+    "1 cucharada de vinagre blanco (para mantener el color)",
+    "1 litro de caldo de res o verduras",
+    "Crema agria (sour cream) y eneldo fresco para servir"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla con un poco de aceite, sofríe la cebolla y la zanahoria durante 5 minutos.",
+    "Añade la remolacha rallada, la pasta de tomate y el vinagre blanco. Saltea todo por 10 minutos a fuego bajo.",
+    "Vierte el caldo de res o verduras y agrega las papas en cubos. Lleva a ebullición.",
+    "Baja el fuego, tapa la olla y cocina por 20 minutos.",
+    "Añade la col blanca picada y cocina durante 15 minutos más hasta que todas las verduras estén perfectamente tiernas.",
+    "Sirve la sopa caliente en un tazón, añadiendo una cucharada de crema agria en el centro y espolvoreando eneldo fresco."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401316"
+  },
+  "id": 10,
+  "platillo": "Sopa Avgolemono",
+  "pais": "Grecia",
+  "tiempo_preparacion": "30 minutos",
+  "dificultad": "Media",
+  "explicacion": "Una cena griega ligera, sedosa y sumamente reconfortante. Es una sopa de pollo y arroz cuya salsa y textura se logran emulsionando huevos batidos con jugo de limón fresco directamente en el caldo caliente.",
+  "ingredientes": [
+    "1 litro de caldo de pollo concentrado",
+    "1/2 taza de arroz de grano redondo",
+    "1 taza de pechuga de pollo cocida y desmechada",
+    "2 huevos grandes",
+    "Jugo de 2 limones amarillos frescos",
+    "Pimienta negra y eneldo fresco para decorar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Lleva el caldo de pollo a ebullición en una olla grande. Añade el arroz y cocina a fuego medio por 15 minutos hasta que esté suave.",
+    "Baja el fuego e incorpora el pollo desmechado a la olla para que tome temperatura.",
+    "En un bol aparte, bate enérgicamente los huevos con el jugo de limón hasta obtener una mezcla espumosa.",
+    "Para templar los huevos sin que se corten: toma un cucharón del caldo caliente de la olla y viértelo muy lentamente sobre los huevos batidos sin parar de batir.",
+    "Vierte la mezcla de huevo templada de regreso a la olla a fuego muy bajo, removiendo constantemente de forma circular por 2 minutos hasta que la sopa espese.",
+    "Apaga el fuego antes de que hierva (para evitar que el huevo se cuaje), sazona con pimienta y eneldo fresco, y sirve de inmediato."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401317"
+  },
+  "id": 11,
+  "platillo": "Laksa de Mariscos",
+  "pais": "Malasia",
+  "tiempo_preparacion": "40 minutos",
+  "dificultad": "Alta",
+  "explicacion": "Una emblemática sopa del sudeste asiático que fusiona la cocina china y malaya. Consiste en fideos de arroz en un caldo picante y cremoso a base de curry, leche de coco y mariscos variados.",
+  "ingredientes": [
+    "150g de fideos de arroz gruesos",
+    "2 cucharadas de pasta de curry Laksa",
+    "400ml de leche de coco",
+    "1 tazas de caldo de pescado o camarón",
+    "100g de camarones limpios y 100g de calamares en anillos",
+    "50g de brotes de soja",
+    "Hojas de cilantro y rodajas de lima para servir"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla profunda, sofríe la pasta de curry Laksa con una cucharadita de aceite durante 2 minutos hasta que huela intensamente.",
+    "Vierte la leche de coco y el caldo de pescado. Lleva la mezcla a ebullición suave y cocina por 10 minutos.",
+    "Agrega los camarones y los anillos de calamar al caldo hirviendo, cocinándolos durante 4 minutos.",
+    "En una olla aparte, hierve los fideos de arroz según las instrucciones de su paquete, escúrrelos y sírvelos en el fondo de los platos.",
+    "Vierte el caldo cremoso caliente con los mariscos directamente sobre los fideos cocidos.",
+    "Corona la cena con brotes de soja frescos, hojas de cilantro picadas y media lima al costado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401318"
+  },
+  "id": 12,
+  "platillo": "Sopa de Tortilla",
+  "pais": "México",
+  "tiempo_preparacion": "35 minutos",
+  "dificultad": "Baja",
+  "explicacion": "También conocida como sopa azteca. Es un caldillo de jitomate sazonado con epazote y chiles secos, que se sirve caliente sobre tiras de tortilla fritas y guarniciones cremosas.",
+  "ingredientes": [
+    "3 jitomates maduros",
+    "1/4 de cebolla y 1 diente de ajo",
+    "1 rama de epazote fresco",
+    "1 litro de caldo de pollo",
+    "2 chiles pasilla limpios y cortados en anillos",
+    "10 tortillas de maíz cortadas en tiras delgadas y fritas",
+    "1 aguacate en cubos y 100g de queso panela en cubos",
+    "Crema ácida para decorar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Licúa los jitomates, la cebolla y el ajo con un chorrito de agua hasta obtener un puré terso.",
+    "En una olla, calienta una cucharadita de aceite y fríe el puré de jitomate durante 5 minutos a fuego medio.",
+    "Vierte el caldo de pollo y añade la rama de epazote. Sazona con sal y deja hervir tapado por 15 minutos.",
+    "En una sartén pequeña, fríe rápidamente las tiras de chile pasilla en aceite por unos segundos (cuidado que no se quemen) y retíralas.",
+    "Para armar la cena: coloca un puñado generoso de tiras de tortilla fritas en el fondo de un plato hondo.",
+    "Baña las tortillas con el caldo de jitomate hirviendo y decora inmediatamente encima con cubos de aguacate, queso panela, los anillos de chile pasilla fritos y un hilo de crema."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a32401319"
+  },
+  "id": 13,
+  "platillo": "Sopa Miso (Misoshiru)",
+  "pais": "Japón",
+  "tiempo_preparacion": "15 minutos",
+  "dificultad": "Baja",
+  "explicacion": "La cena más ligera y tradicional de Japón, servida como acompañamiento o plato único suave nocturno. Se basa en el caldo dashi (infusión de alga y pescado) combinado con pasta de soya fermentada (miso).",
+  "ingredientes": [
+    "1 litro de agua con 1 cucharada de gránulos de caldo dashi",
+    "3 cucharadas de pasta de miso (blanco o rojo)",
+    "100g de tofu firme cortado en cubos pequeños",
+    "2 cucharadas de alga wakame deshidratada",
+    "1 cebollín picado finamente en rodajas"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla, calienta el agua junto con el polvo dashi y llévalo a un hervor suave.",
+    "Añade los cubos de tofu y el alga wakame deshidratada al caldo, cocinando por un par de minutos hasta que el alga se hidrate y expanda.",
+    "Apaga por completo el fuego de la estufa.",
+    "Coloca la pasta de miso en un colador pequeño, sumérgelo parcialmente en el caldo y disuelve el miso usando una cuchara (nunca debe hervir el miso porque pierde sus propiedades).",
+    "Revuelve suavemente la sopa para unificar el color.",
+    "Sirve inmediatamente en tazones pequeños y decora con rodajas frescas de cebollín por encima."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a3240131a"
+  },
+  "id": 14,
+  "platillo": "Caldo de Bola de Verde",
+  "pais": "Ecuador",
+  "tiempo_preparacion": "90 minutos",
+  "dificultad": "Alta",
+  "explicacion": "Una cena contundente e icónica de la costa ecuatoriana. Consiste en un caldo de carne sazonado con un refrito, que lleva grandes bolas de masa de plátano verde rellenas de carne picada, pasas y huevo.",
+  "ingredientes": [
+    "500g de carne de res para caldo (con hueso)",
+    "3 plátanos verdes (2 cocidos y 1 rallado crudo)",
+    "1/2 taza de maní (cacahuate) tostado y licuado con leche",
+    "1 taza de carne de res picada finamente (para el relleno)",
+    "1 cebolla, 1 pimiento y 2 dientes de ajo picados para el refrito",
+    "1 huevo duro picado y 2 cucharadas de pasas",
+    "Sal, comino y achiote"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla grande, cocina la carne con hueso en agua con sal, comino y ajo para hacer la base del caldo.",
+    "Para el relleno: haz un refrito con achiote, cebolla, pimiento y ajo; añade la carne picada, las pasas, el huevo duro y una cucharada de la pasta de maní cocinada.",
+    "Para las bolas: aplasta los dos plátanos verdes cocidos calientes y mézclalos con el plátano verde crudo rallado, añade un toque de maní y amasa hasta que esté suave.",
+    "Forma bolas medianas con la masa de verde, haz un hueco en el centro, rellénalas con el preparado de carne y ciérralas perfectamente.",
+    "Añade el resto de la pasta de maní al caldo de la olla principal y deja que hierva.",
+    "Introduce con mucho cuidado las bolas de verde rellenas al caldo hirviendo y cocínalas por 15 minutos hasta que floten y estén firmes; sirve una bola por plato con abundante caldo."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a275843a750867a3240131b"
+  },
+  "id": 15,
+  "platillo": "Sopa de Lentejas al Estilo Casero",
+  "pais": "España",
+  "tiempo_preparacion": "45 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Una cena tradicional de la cocina mediterránea. Las lentejas se guisan a partir de un sofrito de verduras y se cocinan a fuego lento con una pieza de chorizo que aporta sabor y consistencia.",
+  "ingredientes": [
+    "1 taza de lentejas pardinas (no requieren remojo largo)",
+    "1 chorizo tierno cortado en rodajas",
+    "1 zanahoria y 1 papa cortadas en cubos",
+    "1/2 cebolla y 2 dientes de ajo picados finamente",
+    "1 tomate maduro rallado",
+    "1 cucharadita de pimentón dulce",
+    "1 litro de agua o caldo de verduras",
+    "1 hoja de laurel, aceite de oliva y sal"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla con un chorrito de aceite de oliva, sofríe la cebolla y el ajo hasta que doren.",
+    "Agrega el tomate rallado y el pimentón dulce, removiendo rápidamente durante 1 minuto para que el pimentón no se queme.",
+    "Añade las rodajas de chorizo, la zanahoria y la papa en cubos, mezclando todo con el sofrito.",
+    "Incorpora las lentejas lavadas y la hoja de laurel a la olla.",
+    "Vierte el agua o caldo de verduras y sazona con una pizca de sal. Lleva a ebullición.",
+    "Baja el fuego a medio-bajo, tapa la olla y deja cocinar durante 30-35 minutos hasta que las lentejas estén completamente tiernas y el caldo espese ligeramente."
+  ]
+}]

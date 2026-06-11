@@ -1,0 +1,425 @@
+[{
+  "_id": {
+    "$oid": "6a2757b7a750867a324012fe"
+  },
+  "id": 1,
+  "platillo": "Chilaquiles Verdes",
+  "pais": "México",
+  "tiempo_preparacion": "30 minutos",
+  "dificultad": "Baja",
+  "explicacion": "El desayuno mexicano por excelencia para iniciar el día con energía. Consiste en totopos de maíz crujientes bañados en una salsa caliente de tomate verde y chile, coronados con crema, queso fresco, cebolla y usualmente acompañados de huevo o pollo.",
+  "ingredientes": [
+    "12 tortillas de maíz cortadas en triángulos (totopos)",
+    "500g de tomates verdes (tomatillos)",
+    "2 chiles serranos",
+    "1 diente de ajo",
+    "1/4 de cebolla",
+    "1 manojo pequeño de cilantro fresco",
+    "1 taza de caldo de pollo",
+    "Aceite vegetal para freír",
+    "Crema ácida, queso fresco desmoronado y cebolla fileteada para decorar",
+    "2 huevos"
+  ],
+  "preparacion_paso_a_paso": [
+    "Fríe los triángulos de tortilla en una sartén con abundante aceite caliente hasta que estén dorados y crujientes. Escurre en papel absorbente.",
+    "En una olla con agua, hierve los tomates verdes y los chiles durante 8-10 minutos hasta que cambien de color.",
+    "Licúa los tomates, los chiles, el ajo, el cuarto de cebolla, el cilantro y el caldo de pollo hasta obtener una salsa homogénea.",
+    "Sazona la salsa en una cacerola con una cucharadita de aceite a fuego medio durante 5 minutos. Rectifica la sal.",
+    "Coloca los totopos en la cacerola con la salsa caliente, mezcla rápidamente para que se impregnen pero sin dejar que se batan.",
+    "Sirve inmediatamente en un plato y decora con un hilo de crema, queso desmoronado, cebolla fileteada y huevos fritos encima."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a324012ff"
+  },
+  "id": 2,
+  "platillo": "Full English Breakfast",
+  "pais": "Reino Unido",
+  "tiempo_preparacion": "25 minutos",
+  "dificultad": "Media",
+  "explicacion": "Un desayuno sustancioso y emblemático del Reino Unido, creado originalmente en el siglo XIX. Se compone de una variedad de elementos fritos o asados que se sirven juntos en un solo plato plano.",
+  "ingredientes": [
+    "2 salchichas británicas de cerdo",
+    "3 lonchas de tocino grueso",
+    "2 huevos",
+    "1 taza de frijoles en salsa de tomate (baked beans enlatados)",
+    "100g de champiñones laminados",
+    "1 tomate maduro cortado por la mitad",
+    "2 rebanadas de pan de molde",
+    "Mantequilla al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una sartén grande a fuego medio, cocina las salchichas durante 10-12 minutos y el tocino unos 5 minutos hasta que esté dorado.",
+    "En la misma sartén, aprovechando la grasa, coloca las mitades de tomate y los champiñones. Cocina por 4-5 minutos hasta que estén tiernos.",
+    "Mientras tanto, calienta los frijoles en una cacerola pequeña a fuego bajo.",
+    "Retira los ingredientes cocinados y mantenlos calientes. En la misma sartén, fríe los huevos al gusto dejando la yema líquida.",
+    "Tuesta las rebanadas de pan y úntales mantequilla.",
+    "Monta el plato colocando de forma ordenada las salchichas, el tocino, los huevos, los champiñones, el tomate, el pan tostado y los frijoles a un costado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401300"
+  },
+  "id": 3,
+  "platillo": "Shakshuka",
+  "pais": "Túnez",
+  "tiempo_preparacion": "30 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Un desayuno árabe y mediterráneo muy popular. Consiste en huevos escalfados suavemente en una salsa de tomate picante, pimientos, cebolla y una profunda combinación de especias como el comino y la paprika.",
+  "ingredientes": [
+    "4 huevos",
+    "1 lata de tomates triturados (400g)",
+    "1 pimiento rojo cortado en dados",
+    "1 cebolla picada fina",
+    "2 dientes de ajo picados",
+    "1 cdta de comino en polvo",
+    "1 cdta de paprika dulce",
+    "1/4 cdta de chile en hojuelas",
+    "Aceite de oliva, sal y pimienta",
+    "Pan pita para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Calienta aceite de oliva en una sartén grande a fuego medio. Añade la cebolla y el pimiento rojo, sofriéndolos hasta que estén suaves.",
+    "Agrega el ajo, el comino, la paprika y las hojuelas de chile. Cocina por un minuto más para que las especias liberen su aroma.",
+    "Vierte los tomates triturados con sus jugos. Sazona con sal y pimienta, baja el fuego y deja que la salsa espese durante 10 minutos.",
+    "Con una cuchara, haz 4 pequeños huecos en la salsa de tomate y rompe un huevo dentro de cada hueco.",
+    "Tapa la sartén y cocina a fuego bajo durante 5-8 minutos, o hasta que las claras de huevo estén blancas y firmes pero las yemas sigan líquidas.",
+    "Retira del fuego y sirve directamente de la sartén acompañado de pan pita tibio."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401301"
+  },
+  "id": 4,
+  "platillo": "Tamagoyaki",
+  "pais": "Japón",
+  "tiempo_preparacion": "15 minutos",
+  "dificultad": "Media",
+  "explicacion": "Un elemento esencial en los desayunos japoneses tradicionales. Es una tortilla de huevo enrollada en capas finas, sazonada con mirin y soya, lo que le da un característico sabor sutilmente dulce y umami.",
+  "ingredientes": [
+    "4 huevos grandes",
+    "1 cucharada de mirin (vino dulce de arroz)",
+    "1 cucharadita de salsa de soya ligera",
+    "1 cucharadita de azúcar",
+    "Una pizca de sal",
+    "Aceite vegetal para engrasar la sartén"
+  ],
+  "preparacion_paso_a_paso": [
+    "En un bol, rompe los huevos y añade el mirin, la salsa de soya, el azúcar y la sal. Bate suavemente sin incorporar demasiado aire.",
+    "Calienta una sartén antiadherente a fuego medio-bajo y úntala ligeramente con aceite usando una servilleta de papel.",
+    "Vierte una capa muy delgada de la mezcla de huevo cubriendo el fondo. Cuando empiece a cuajar pero siga húmeda, enróllala firmemente desde un extremo al otro.",
+    "Empuja el rollo de huevo hacia el extremo donde empezaste y vuelve a engrasar el espacio libre de la sartén.",
+    "Vierte otra capa delgada de huevo, asegurándote de levantar ligeramente el primer rollo para que el huevo nuevo corra por debajo.",
+    "Cuando esta capa cuaje, vuelve a enrollar usando el primer rollo como centro. Repite hasta acabar la mezcla, deja enfriar un minuto y corta en rodajas."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401302"
+  },
+  "id": 5,
+  "platillo": "Arepas con Perico",
+  "pais": "Venezuela",
+  "tiempo_preparacion": "25 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Un desayuno clásico del caribe sudamericano. Consiste en arepas de maíz asadas rellenas de 'perico', un revoltillo de huevos jugosos sofritos con tomate picado, cebolla larga y un toque de mantequilla.",
+  "ingredientes": [
+    "1 taza de harina de maíz precocida",
+    "1 taza de agua tibia",
+    "1/2 cdta de sal",
+    "3 huevos",
+    "1 tomate maduro picado en cubos pequeños",
+    "2 tallos de cebolla larga picados finamente",
+    "1 cucharada de mantequilla",
+    "Queso blanco rallado para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Mezcla el agua tibia, la sal y la harina de maíz en un bol. Amasa por unos minutos hasta que esté suave y deja reposar 3 minutos.",
+    "Forma bolas medianas y aplánalas con las manos hasta crear discos de 1 cm de grosor. Cocínalas en una sartén a fuego medio durante 5-7 minutos por lado.",
+    "En otra sartén, derrite la mantequilla y sofríe la cebolla larga y el tomate picados durante 4-5 minutos hasta que se forme un sofrito suave.",
+    "Bate los huevos con una pizca de sal y viértelos en la sartén con el sofrito.",
+    "Cocina a fuego medio-bajo revolviendo suavemente de manera constante para que los huevos queden cremosos y retengan los jugos del tomate.",
+    "Abre las arepas calientes de forma lateral con un cuchillo, úntales un poco de mantequilla y rellénalas con el huevo perico y queso blanco."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401303"
+  },
+  "id": 6,
+  "platillo": "Croissant con Café au Lait",
+  "pais": "Francia",
+  "tiempo_preparacion": "10 minutos",
+  "dificultad": "Baja",
+  "explicacion": "El desayuno continental francés por excelencia: minimalista, enfocado en la panadería artesanal. Consiste en hojaldre de pura mantequilla crujiente acompañado de café con leche bien caliente.",
+  "ingredientes": [
+    "2 croissants frescos de panadería",
+    "1 taza de café espresso fuerte",
+    "1 taza de leche entera",
+    "Mantequilla y mermelada para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Precalienta el horno a 150°C y calienta los croissants durante 3 minutos para devolverles su textura crujiente exterior.",
+    "Prepara una taza de café espresso o café de filtro muy concentrado.",
+    "Calienta la leche en una jarrita hasta que esté humeante.",
+    "Vierte la leche caliente sobre el café en proporciones iguales (50/50).",
+    "Sirve los croissants calientes en un plato plano acompañados de la taza de café con leche."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401304"
+  },
+  "id": 7,
+  "platillo": "Pancakes con Jarabe de Maple",
+  "pais": "Estados Unidos",
+  "tiempo_preparacion": "20 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Los tradicionales hot cakes americanos de consistencia esponjosa y gruesa. Se sirven apilados calientes con un cubo de mantequilla que se derrite encima y se bañan con jarabe puro de arce.",
+  "ingredientes": [
+    "1 taza de harina de trigo",
+    "2 cdtas de polvo para hornear",
+    "2 cucharadas de azúcar",
+    "1/2 cdta de sal",
+    "3/4 de taza de leche",
+    "1 huevo grande",
+    "2 cucharadas de mantequilla derretida",
+    "Jarabe de maple puro para servir"
+  ],
+  "preparacion_paso_a_paso": [
+    "En un bol grande, mezcla los ingredientes secos: harina, polvo para hornear, azúcar y sal.",
+    "En otro bol, bate el huevo junto con la leche y la mantequilla derretida.",
+    "Vierte los líquidos sobre los secos y mezcla suavemente con un batidor de globo sólo hasta integrar (deben quedar grumos pequeños).",
+    "Calienta una sartén antiadherente a fuego medio y coloca un toque de mantequilla.",
+    "Vierte un cuarto de taza de masa por pancake y cocina hasta que aparezcan burbujas en la superficie.",
+    "Dale la vuelta con una espátula y cocina por el otro lado durante 1 minuto más hasta que esté bien dorado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401305"
+  },
+  "id": 8,
+  "platillo": "Congee de Pollo",
+  "pais": "China",
+  "tiempo_preparacion": "60 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Un reconfortante gachas de arroz que se consume caliente en las mañanas. El arroz se rompe tras una cocción prolongada en caldo, creando una textura cremosa, suave y de muy fácil digestión.",
+  "ingredientes": [
+    "1/2 taza de arroz blanco de grano corto",
+    "5 tazas de caldo de pollo",
+    "100g de pechuga de pollo cortada en tiras finas",
+    "2 cm de jengibre fresco en rodajas",
+    "1 cucharadita de salsa de soya",
+    "1 cucharadita de aceite de sésamo",
+    "Cebollín picado para decorar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Lava bien el arroz bajo el chorro de agua fría para quitar el exceso de almidón.",
+    "En una olla grande, coloca el arroz, el caldo de pollo y las rodajas de jengibre. Lleva a ebullición a fuego alto.",
+    "Reduce el fuego al mínimo, tapa la olla parcialmente y cocina durante 45 minutos revirtiendo ocasionalmente.",
+    "Añade las tiras de pechuga de pollo sazonadas con sal y la salsa de soya directamente al congee.",
+    "Cocina por 10 minutos más hasta que el pollo esté tierno y la consistencia sea cremosa.",
+    "Sirve en tazones hondos, retira el jengibre, añade gotas de aceite de sésamo y decora con cebollín picado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401306"
+  },
+  "id": 9,
+  "platillo": "Smørrebrød de Salmón",
+  "pais": "Dinamarca",
+  "tiempo_preparacion": "15 minutos",
+  "dificultad": "Baja",
+  "explicacion": "El desayuno tradicional escandinavo destaca por sus sándwiches abiertos. Se utiliza una base densa de pan de centeno negro, untada con mantequilla y cubierta con láminas de salmón ahumado.",
+  "ingredientes": [
+    "2 rebanadas de pan de centeno denso",
+    "2 cucharadas de mantequilla con sal a temperatura ambiente",
+    "100g de salmón ahumado",
+    "4 rodajas finas de pepino",
+    "1 cucharada de alcaparras",
+    "Eneldo fresco para decorar",
+    "Rodajas de limón"
+  ],
+  "preparacion_paso_a_paso": [
+    "Coloca las rebanadas de pan de centeno sobre una tabla limpia (tradicionalmente no se tuestan).",
+    "Unta una capa uniforme de mantequilla sobre cada rebanada para crear una barrera protectora.",
+    "Distribuye las rodajas de pepino de forma decorativa sobre la base de mantequilla.",
+    "Coloca las láminas de salmón ahumado de forma holgada, creando pliegues para dar volumen.",
+    "Decora esparciendo las alcaparras y los ramilletes de eneldo fresco por encima.",
+    "Sirve frío acompañado de una rodaja de limón para exprimir justo antes de comer."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401307"
+  },
+  "id": 10,
+  "platillo": "Menemen",
+  "pais": "Turquía",
+  "tiempo_preparacion": "20 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Un desayuno turco tradicional indispensable. Es un plato de huevos revueltos muy jugosos mezclados directamente en una reducción caliente de pimientos verdes, tomates maduros y aceite de oliva.",
+  "ingredientes": [
+    "3 huevos",
+    "2 pimientos verdes alargados picados",
+    "2 tomates medianos maduros, pelados y picados en cubos",
+    "2 cucharadas de aceite de oliva",
+    "1/2 cdta de hojuelas de chile",
+    "Sal y pimienta negra al gusto",
+    "Pan crujiente para acompañar"
+  ],
+  "preparacion_paso_a_paso": [
+    "Calienta el aceite de oliva en una sartén a fuego medio.",
+    "Añade los pimientos verdes picados y saltéalos durante 3-4 minutos hasta que empiecen a ablandarse.",
+    "Agrega los tomates en cubos, sal, pimienta y hojuelas de chile. Cocina por 10 minutos hasta que se forme una salsa espesa.",
+    "Bate ligeramente los huevos en un tazón aparte.",
+    "Baja el fuego al mínimo, vierte los huevos en la sartén y mezcla suavemente con movimientos envolventes.",
+    "Cocina solo por 2 minutos, retirando del fuego mientras el huevo siga bastante húmedo (se terminará de cocer con el calor residual)."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401308"
+  },
+  "id": 11,
+  "platillo": "Idli con Sambar",
+  "pais": "India",
+  "tiempo_preparacion": "40 minutos",
+  "dificultad": "Alta",
+  "explicacion": "Un desayuno saludable y vegetariano del sur de la India. Los Idlis son pastelitos de arroz esponjosos hechos al vapor a partir de una masa fermentada, que se mojan en el Sambar (un estofado especiado de lentejas).",
+  "ingredientes": [
+    "2 tazas de masa fermentada para Idli (arroz y lentejas molidas)",
+    "1 taza de lentejas de cultivo (toor dal)",
+    "1 taza de verduras mixtas picadas (zanahoria, calabaza)",
+    "1 cucharada de polvo de especias Sambar Masala",
+    "1/2 cdta de semillas de mostaza",
+    "Unas hojas de curry frescas",
+    "1 cucharada de pasta de tamarindo",
+    "Aceite y sal al gusto"
+  ],
+  "preparacion_paso_a_paso": [
+    "Engrasa los moldes para idli con aceite y vierte la masa fermentada dentro de ellos.",
+    "Cocina al vapor en una vaporera durante 10-12 minutos hasta que estén firmes. Desmolda.",
+    "Para el Sambar: Cocina las lentejas en agua hasta que estén completamente suaves y deshechas.",
+    "En otra olla, hierve las verduras con agua, sal, el Sambar Masala y la pasta de tamarindo; luego integra las lentejas cocidas.",
+    "En una sartén pequeña, calienta aceite, añade las semillas de mostaza y las hojas de curry; cuando truenen, viértelo sobre el Sambar.",
+    "Sirve los idlis calientes en un tazón hondo bañados por completo con el estofado de sambar."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a32401309"
+  },
+  "id": 12,
+  "platillo": "Porridge de Avena con Frutos Rojos",
+  "pais": "Escocia",
+  "tiempo_preparacion": "15 minutos",
+  "dificultad": "Baja",
+  "explicacion": "El desayuno tradicional diseñado para combatir el frío extremo. La avena en hojuelas se cocina lentamente en leche hasta formar una crema densa y caliente, personalizada con frutas frescas y miel.",
+  "ingredientes": [
+    "1/2 de taza de avena en hojuelas enteras",
+    "1 taza y media de leche entera",
+    "Una pizca de sal",
+    "1/2 cdta de canela en polvo",
+    "1 cucharada de miel de abejas",
+    "Frutos rojos frescos (arándanos, frambuesas)",
+    "Un puñado de nueces picadas"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una cacerola pequeña, añade la avena en hojuelas, la leche y la pizca de sal.",
+    "Lueva la mezcla a fuego medio hasta que comience a romper el hervor.",
+    "Baja el fuego al mínimo, añade la canela y cocina durante 8-10 minutos removiendo constantemente con una cuchara de madera.",
+    "Cuando la avena haya absorbido el líquido y tenga una textura espesa y cremosa, retira del fuego.",
+    "Pásala a un tazón hondo y deja reposar por un minuto.",
+    "Decora la superficie colocando los frutos rojos, las nueces picadas y vierte la miel en forma de hilo por encima."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a3240130a"
+  },
+  "id": 13,
+  "platillo": "Gallo Pinto",
+  "pais": "Costa Rica",
+  "tiempo_preparacion": "20 minutos",
+  "dificultad": "Baja",
+  "explicacion": "El desayuno centroamericano por excelencia. Es una combinación de arroz y frijoles negros cocinados del día anterior que se sofríen juntos con vegetales y el ingrediente indispensable: la Salsa Lizano.",
+  "ingredientes": [
+    "2 tazas de arroz blanco cocido (del día anterior)",
+    "1 taza y media de frijoles negros cocidos",
+    "1/2 cebolla picada finamente",
+    "1/2 pimiento dulce picado finamente",
+    "2 cucharadas de cilantro fresco picado",
+    "3 cucharadas de Salsa Lizano",
+    "1 cucharada de aceite vegetal"
+  ],
+  "preparacion_paso_a_paso": [
+    "Calienta el aceite en una sartén grande a fuego medio y sofríe la cebolla y el pimiento por 3 minutos.",
+    "Añade los frijoles negros con un poquito de su caldo a la sartén y deja que hiervan durante 2 minutos.",
+    "Agrega las cucharadas de Salsa Lizano y mezcla bien con el sofrito.",
+    "Incorpora el arroz blanco de forma uniforme, removiendo constantemente para que absorba el caldo de los frijoles.",
+    "Cocina por 5 minutos más hasta que se evapore el exceso de humedad de la sartén.",
+    "Apaga el fuego, añade el cilantro picado fresco, mezcla bien y sirve caliente."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a3240130b"
+  },
+  "id": 14,
+  "platillo": "Phở Bò (Sopa Phở de Ternera)",
+  "pais": "Vietnam",
+  "tiempo_preparacion": "45 minutos",
+  "dificultad": "Media",
+  "explicacion": "En Vietnam, el Phở es primordialmente un plato matutino. Es una sopa aromática de fideos de arroz planos con finas láminas de carne de res cocidas al instante por el calor de un caldo profundamente especiado.",
+  "ingredientes": [
+    "150g de fideos de arroz planos para Phở",
+    "150g de lomo de res cortado en láminas muy delgadas",
+    "1 litro de caldo de res especiado previamente preparado",
+    "1 estrella de anís y 1 rama de canela",
+    "3 cm de jengibre fresco",
+    "1 cucharada de salsa de pescado",
+    "Brotes de soja y hojas de menta para acompañar",
+    "Cebollín picado"
+  ],
+  "preparacion_paso_a_paso": [
+    "En una olla, hierve el caldo de res junto con el jengibre, el anís y la canela durante 20 minutos para infusionar los aromas.",
+    "Cuela el caldo para retirar las especias enteras y sazona con la salsa de pescado.",
+    "Cocina los fideos de arroz en agua hirviendo aparte durante 3 minutos, escúrrelos y repártelos en tazones.",
+    "Coloca las láminas de carne de res completamente crudas directamente sobre la cama de fideos de arroz.",
+    "Vierte el caldo de res hirviendo a borbotones directamente sobre el tazón (el calor del caldo cocinará la carne al instante).",
+    "Añade cebollín picado arriba y sirve acompañado de brotes de soja y menta al lado."
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a2757b7a750867a3240130c"
+  },
+  "id": 15,
+  "platillo": "Açai Bowl",
+  "pais": "Brasil",
+  "tiempo_preparacion": "10 minutos",
+  "dificultad": "Baja",
+  "explicacion": "Originario de la región amazónica. Es un desayuno refrescante, energético y saludable a base de la pulpa congelada de la fruta de açai licuada, servida en un tazón con toppings crujientes.",
+  "ingredientes": [
+    "200g de pulpa de açai congelada",
+    "1 plátano maduro congelado en rodajas",
+    "1/4 de taza de leche de coco",
+    "1 cucharada de miel",
+    "Granola crujiente y fresas en rodajas para decorar",
+    "1 cucharada de semillas de chía"
+  ],
+  "preparacion_paso_a_paso": [
+    "Coloca la pulpa de açai congelada y las rodajas de plátano congelado dentro de una licuadora de alta potencia.",
+    "Añade la cucharada de miel y vierte un chorrito muy pequeño de leche de coco.",
+    "Licúa a velocidad alta empujando los ingredientes hasta obtener una textura muy espesa y cremosa (estilo sorbete).",
+    "Vierte la mezcla cremosa y morada oscura dentro de un tazón hondo.",
+    "Organiza los toppings en la superficie en filas: coloca una línea de granola, una de fresas y espolvorea las semillas de chía.",
+    "Sirve inmediatamente con una cuchara mientras permanezca firmemente congelado."
+  ]
+}]
