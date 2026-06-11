@@ -1,0 +1,125 @@
+import re  # <-- IMPORTANTE: Faltaba importar 're' para las expresiones regulares
+from bson import ObjectId
+from flask import Blueprint, Flask, jsonify, request
+from pymongo import MongoClient
+
+cliente = MongoClient("mongodb://localhost:27017/")
+db = cliente["recetario"]
+
+# Colecciones globales
+coleccion_desayunos = db["desayunos"]
+coleccion_comida = db["comida"]
+coleccion_cena = db["cena"]
+
+app = Flask(__name__)
+
+
+@app.route("/recetario/<coleccion_tipo>/<ingrediente>", methods=["GET"])
+def buscar_por_ingrediente(coleccion_tipo, ingrediente):
+    if coleccion_tipo not in ["desayunos", "comida", "cena"]:
+        return jsonify({"mensaje": "Categoría no válida"})
+
+    if len(ingrediente) < 3:
+        return jsonify({"mensaje": "Debes escribir mínimo 3 letras para buscar"})
+
+    coleccion = db[coleccion_tipo]
+
+    platillos = list(
+        coleccion.find({"ingredientes": {"$regex": ingrediente, "$options": "i"}})
+    )
+
+    resultado = []
+    for platillo in platillos:
+        platillo["_id"] = str(platillo["_id"])
+        resultado.append(platillo)
+
+    if resultado:
+        return jsonify(resultado)
+    else:
+        return jsonify(
+            {
+                "mensaje": f"No se encontraron platillos con el ingrediente '{ingrediente}'"
+            }
+        )
+
+
+@app.route("/recetario/<coleccion_tipo>/<nombre>", methods=["GET"])
+def buscar_platillo(coleccion_tipo, nombre):
+    if coleccion_tipo not in ["desayunos", "comida", "cena"]:
+        return jsonify({"mensaje": "Categoría de menú no válida"}), 400
+
+    if len(nombre) < 3:
+        return jsonify(
+            {"mensaje": "Escribe al menos 3 letras para iniciar la búsqueda."}
+        )
+
+    coleccion = db[coleccion_tipo]
+    busqueda_letras = re.compile(f"^{nombre}", re.IGNORECASE)
+    platillos = coleccion.find({"nombre": busqueda_letras})
+
+    resultados = []
+    for platillo in platillos:
+        platillo["id"] = str(platillo["_id"])
+        del platillo["_id"]
+        resultados.append(platillo)
+
+    if resultados:
+        return jsonify(resultados)
+    else:
+        return jsonify(
+            {
+                "mensaje": f"No se encontraron platillos que empiecen con '{nombre}' en {coleccion_tipo}"
+            }
+        )
+
+
+@app.route("/cena/", methods=["GET", "POST"])  # api cena
+def obtener_cena_api():
+    coleccion = coleccion_cena
+
+    if request.method == "POST":
+        nuevo = request.json
+        coleccion.insert_many(nuevo)
+        return {"mensaje": "¡Cenas guardadas con éxito!"}, 201
+
+    resultados = []
+    for doc in coleccion.find():
+        doc["_id"] = str(doc["_id"])
+        resultados.append(doc)
+    return jsonify(resultados)
+
+
+@app.route("/comida/", methods=["GET", "POST"])  # api comida
+def obtener_comida_api():
+    coleccion = coleccion_comida
+
+    if request.method == "POST":
+        nuevo = request.json
+        coleccion.insert_many(nuevo)
+        return {"mensaje": "¡comidas guardadas con éxito!"}, 201
+
+    resultados = []
+    for doc in coleccion.find():
+        doc["_id"] = str(doc["_id"])
+        resultados.append(doc)
+    return jsonify(resultados)
+
+
+@app.route("/desayunos/", methods=["GET", "POST"])  # api desayunos
+def obtener_desayunos_api():
+    coleccion = coleccion_desayunos
+
+    if request.method == "POST":
+        nuevo = request.json
+        coleccion.insert_many(nuevo)
+        return {"mensaje": "¡Desayuno guardado con éxito!"}, 201
+
+    resultados = []
+    for doc in coleccion.find():
+        doc["_id"] = str(doc["_id"])
+        resultados.append(doc)
+    return jsonify(resultados)
+
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0")
