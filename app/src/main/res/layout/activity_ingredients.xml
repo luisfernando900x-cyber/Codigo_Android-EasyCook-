@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://tools.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F4EE">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Volver"
+        android:src="@drawable/arrow"
+        android:scaleType="fitCenter"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cocina con lo que tienes"
+        android:textColor="#1E1E1E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#2F5D3A"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selecciona los ingredientes\nque tienes en casa"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etSearchIngredient"
+                        style="@style/SearchInputStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@android:color/white"
+                        android:hint="Buscar por ingrediente..."
+                        android:textColorHint="#757575"
+                        android:textColor="#1E1E1E"
+                        android:textSize="13sp"
+                        android:paddingHorizontal="12dp"
+                        android:drawableStart="@android:drawable/ic_menu_search"
+                        android:drawablePadding="8dp"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="14dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="4dp">
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Huevo" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Tomate" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Cebolla" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Ajo" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="4dp">
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Queso" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Pollo" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Arroz" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Pasta" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="4dp">
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Harina" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Papa" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Zanahoria" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Cilantro" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_marginBottom="4dp">
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Carne" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Cerdo" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Atún" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Hongos" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Aguacate" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Leche" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Manteca" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView style="@style/IngredientCardStyle">
+                                    <LinearLayout style="@style/IngredientItemStyle">
+                                        <ImageView style="@style/IngredientImageStyle" android:src="@drawable/ic_launcher_background" />
+                                        <TextView style="@style/IngredientTextStyle" android:text="Aceite" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ingredientes seleccionados (3)"
+                android:textColor="#1E1E1E"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@id/tvLimpiarTodo"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:background="@android:color/white"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp"
+                        android:text="Huevo  ✕"
+                        android:textColor="#1E1E1E"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:background="@android:color/white"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp"
+                        android:text="Tomate  ✕"
+                        android:textColor="#1E1E1E"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvLimpiarTodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="Limpiar todo"
+                    android:textColor="#6D8B74"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:text="Puedes preparar estas recetas:"
+                android:textColor="#1E1E1E"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardRecetaImg"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <ImageView
+                            android:id="@+id/imgReceta"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tortilla" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/tvNombreReceta"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Tortilla de tomate\ny queso"
+                        android:textColor="#1E1E1E"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/cardRecetaImg"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/cardRecetaImg"
+                        app:layout_constraintTop_toBottomOf="@+id/tvNombreReceta">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:text="🕒 15 min"
+                            android:textColor="#757575"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:text="🍳 Desayuno"
+                            android:textColor="#757575"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="📊 Fácil"
+                            android:textColor="#757575"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/white"
+        app:elevation="8dp"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="#013501"
+        app:itemTextColor="#013501"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
